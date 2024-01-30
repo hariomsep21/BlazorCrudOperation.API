@@ -12,6 +12,10 @@ namespace DemoCRUD.Data.DataContext
         }
 
         public DbSet<Students> Students { get; set; }
+        public DbSet<Gender> tblGender { get; set; }
+
+        public DbSet<State> tblState { get; set; }
+
 
     }
 }

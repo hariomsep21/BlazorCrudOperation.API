@@ -26,6 +26,10 @@ namespace DemoCRUD.DTO.ModelDtos
 
         [Phone]
         public string? Phone { get; set; }
-        
+
+        public int GenderId { get; set; }
+
+        public int StateId { get; set; }
+
     }
 }

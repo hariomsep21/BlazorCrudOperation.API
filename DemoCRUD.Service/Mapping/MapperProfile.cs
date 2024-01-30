@@ -11,7 +11,8 @@ namespace DealerApp.Service.Mapping
         {
             CreateMap<Students, StudentsDto>();
             CreateMap<Students, StudentsDto>().ReverseMap();
-
+            CreateMap<Gender, GenderDto>().ReverseMap();
+            CreateMap<State, StateDto>().ReverseMap();
         }
 
     }

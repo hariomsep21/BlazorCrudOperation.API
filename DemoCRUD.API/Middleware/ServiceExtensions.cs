@@ -9,7 +9,11 @@ namespace DealerApp.API.Middleware
         public static IServiceCollection AddCustomServices(this IServiceCollection services)
         {
             services.AddScoped<IStudentService, StudentService>();
-            
+            services.AddScoped<IGenderService, GenderService>();
+
+            services.AddScoped<IStateService, StateService>();
+
+
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
           
 
